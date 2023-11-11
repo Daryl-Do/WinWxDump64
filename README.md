@@ -31,6 +31,6 @@ xaoyapp的脚本基于python，需要在目标机上装python和c++。但是他�
 ## 感谢  
 @AdminTest0 的Repo [SharpWxDump](https://github.com/AdminTest0/SharpWxDump/tree/master)  
 
-@hallejuyahaha 的[源代码](https://github.com/AdminTest0/SharpWxDump/issues/48)  
+@hallejuyahaha 的[代码](https://github.com/AdminTest0/SharpWxDump/issues/48)  
 
 @xaoyaoo 的Repo [PyWxDump](https://github.com/xaoyaoo/PyWxDump)
