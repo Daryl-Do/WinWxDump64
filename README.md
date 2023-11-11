@@ -19,8 +19,14 @@ xaoyapp的脚本基于python，需要在目标机上装python和c++。但是他�
 1. 打开cmd，将program.exe拖进去，回车。
 2. 获得 WechatKey.
 3. 找到需要解压的db文件。（如果是该账号第一次登录，一定要关闭微信，否则db文件为空。微信在每次关闭时将数据写入db。）
-4. 使用decrypt.py解密。`-k WechatKey -i db_path -o output_path` 详见代码本身或xaoyaoo的repo
-5. 使用数据库软件打开。推荐[DB Browser for SQLite](https://sqlitebrowser.org/dl/)
+4. 使用decrypt.py解密。
+   
+   Win `py decrypt.py -k WechatKey -i db_path -o output_path`
+   
+   Mac `python3 decrypt.py -k WechatKey -i db_path -o output_path`
+   
+   详见代码本身或[xaoyaoo的PyWxDump源代码](https://github.com/xaoyaoo/PyWxDump/blob/master/pywxdump/decrypted/decrypt.py)
+6. 使用数据库软件打开。推荐[DB Browser for SQLite](https://sqlitebrowser.org/dl/)
 
 ## 二次编译
 1. 解压 WinWxDump64.zip， 打开Program.cs 。
